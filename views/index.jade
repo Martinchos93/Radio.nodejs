@@ -1,5 +1,12 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+	div#box-login
+		div#box-login-title
+			h3 Sing-in
+		div#box-content
+			input#username(type='text')
+			br
+			input#password(type='password')
+			br
+			input#btnSingIn(type='button' value = 'sing in')
